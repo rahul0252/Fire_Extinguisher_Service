@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import"../node_modules/bootstrap/dist/css/bootstrap.min.css";
+:root {
+    --gray-text-color: rgba(171, 171, 171, 1);
+    --stroke-border: rgba(237, 237, 237, 1);
+    --grey-input-color: rgba(154, 158, 165, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey-900: rgba(19, 23, 27, 1);
+    --blue-gray-800: rgba(40, 53, 61, 1);
+    --blue-gray-50: rgba(251, 251, 251, 1);
+    --blue-2: rgba(45, 156, 219, 1);
+    --variable-collection-green: rgba(20, 186, 109, 1);
+    --variable-collection-red: rgba(252, 77, 77, 1);
+    --variable-collection-yellow: rgba(248, 252, 77, 1);
+    --variable-collection-yellows: rgba(247, 180, 0, 1);
+  }

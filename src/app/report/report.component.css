@@ -1,0 +1,328 @@
+.main-container{
+    margin-top: 150px;
+}
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 78px;
+    height: 55px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.heading{
+    font-family: sans-serif;
+}
+
+.logo-heading{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.heading2{
+    font-family: sans-serif;
+
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    align-content: center;
+    margin-right: 20px;
+}
+
+
+.contact-info div h5{
+    font-family: sans-serif;
+}
+
+.contact-info img{
+    height: 18px;
+    
+}
+
+.train-logo{
+    height: 20px;
+    width: 30px;
+}
+
+.navbar-container{
+    display: flex;
+    background-color: rgb(99, 178, 209);
+    gap: 25px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+.report-table-container h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table{
+    
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: 4px;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+caption{
+    font-family: sans-serif;
+}
+
+th,td{
+    padding: 5px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+th{
+    font-size: 10.5px;
+    height: 40px;
+    border-top: 1px solid rgb(216, 216, 216);
+    
+}
+
+td{
+    font-size: 11px;
+    
+}
+
+.edit-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.edit-button img{
+    height: 12px;
+}
+
+.table-container{
+    border: groove;
+    width:1250px;
+    margin: 40px;
+    margin-right: 90px;
+    border-radius: 4px;
+    margin-top: 170px;
+}
+
+.buttons-container{
+    display: flex;
+    padding-left: 900px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+
+.buttons-container button{
+    height: 35px;
+    width: 90px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+}
+
+.buttons-container button img{
+    height: 12px;
+}
+
+
+.table-container table{
+    height: 350px;
+    width:1250px;
+    
+}
+
+.bg{
+    height: 10px;
+    background-color: aliceblue;
+    
+}
+
+.search-button{
+    background-color: rgb(207, 248, 183);
+    
+}
+
+.search-button:hover{
+    border-color: rgb(38, 141, 175);
+    color: rgb(38, 141, 175);
+}
+
+.filter-button:hover{
+    border-color: rgb(38, 141, 175);
+    color: rgb(38, 141, 175);
+}
+
+.refresh:hover{
+    border-color: rgb(38, 141, 175);
+    color: rgb(38, 141, 175);
+}
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+
+
+.colors button{
+    border: none;
+    background: none;
+}
+
+.drop-down{
+  position: relative;
+  bottom: 230px;
+  border: 1px solid gray;
+  width: 265px;
+  border-radius: 8px;
+  padding: 2px;
+  list-style-type: none;
+  
+}
+
+.filter-container{
+    width: 90px;
+    
+}
+
+.buttons-container{
+    height: 45px;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.person img{
+    height: 32px;
+    
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.date img{
+    height: 22px;
+    padding-left:5px ;
+    padding-top:5px ;
+    padding-bottom:5px; 
+}
+
+.date button{
+    width: 60px;
+    margin-left: 120px;
+}
+
+.date button img{
+    height: 18px;
+    
+}
+
+
+
+
+@media (max-width: 650px){
+
+    th{
+        display: none;
+    }
+
+    td{
+        display: grid;
+        grid-template-columns: 15ch auto;
+        gap: 5rem;
+        padding: 0.5rem 1rem;
+        width: 300px;
+    }
+
+    th,td{
+        border: none;
+    }
+
+    
+
+    td:first-child{
+        padding-top: 2rem;
+    }
+
+    td:last-child{
+        padding-bottom: 2rem;
+        
+    }
+
+    td::before{
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .date{
+        width: auto;
+    }
+    
+    .buttons-container{
+        display: none;
+    }
+
+    .table-container{
+        width: 420px;
+        margin-top: 0;
+    }
+    
+    .navbar-container{
+        display: none;
+    }
+
+    .heading2{
+        display: none;
+    }
+
+    .contact-info{
+        display: none;
+    }
+
+    .report-table-container h3{
+        width: 120px;
+    }
+}

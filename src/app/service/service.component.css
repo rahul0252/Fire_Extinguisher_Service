@@ -1,0 +1,346 @@
+body{
+    margin-top:20px;
+    background:#eee;
+    background: linear-gradient(247deg, #F55519 18.63%, #F7A446 85.27%);
+}
+
+.container{
+    background: linear-gradient(247deg, #F55519 18.63%, #F7A446 85.27%);
+    margin-top: 150px;
+}
+.card::after {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: 35px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    content: '';
+    z-index: -1;
+}
+a.card {
+    text-decoration: none;
+
+}
+
+.card {
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.d-block {
+    display: block !important;
+}
+img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.card-text {
+    padding-top: 12px;
+    color: #8c8c8c;
+}
+
+.text-sm {
+    font-size: 12px !important;
+}
+p, .p {
+    margin: 0 0 16px;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pt-1, .py-1 {
+    padding-top: .25rem !important;
+}
+
+.head-icon{
+    margin-top:18px;
+    color:#FF4500
+}
+
+
+  .container {
+    width: 100%;
+    min-height: 700px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+  
+  }
+  .content{
+    display: flex;
+    padding: 2 20px;
+    margin-top: 90px;
+  
+  }
+  
+  .left-block {
+    width: 50%;
+    padding-left: 180px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.9rem;
+    text-align: justify;
+    color: #343559;
+    height: auto;
+    }
+  .right-block{
+    width: 50%;
+    object-fit: cover;
+  }
+  .right-block img{
+    height:230px;
+    padding-top: 30px;
+  }
+  
+  
+  .form-button{
+    height: 50px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+  }
+  .color-sp{
+      position: relative;
+      height: 25px;
+      width: 25px;
+      background-color: coral;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: right;
+      padding: 2px;
+      padding-top: 7px;
+  }
+  
+  .container2 {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin-left: 65px;
+    background-color: #ebe9ed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    top: 100px;
+  
+  }
+  .content2 h2{
+    color: red;
+    padding-top: 90px;
+  }
+  .content2 p{
+    line-height: 1.8;
+    font-weight: lighter;
+    padding-bottom: 40px;
+  }
+  
+  .pdf-container1{
+    position: relative;
+    width: 242px;
+    height: 350px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    float: left;
+    color:white;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    background-image: url("../../assets/Images/preventive_measure.png");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  
+  }
+  .pdf-container1 h3{
+    padding-top: 150px;
+    font-size: larger;
+  }
+  .pdf-container2{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    color:white;
+    align-items: center;
+    text-align: center;
+    background-image: url("../../assets/Images/sop.png");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+  }
+  .pdf-container2 h3{
+    padding-bottom: 90px;
+    padding-left: 80px;
+    font-size: larger;
+  }
+  
+  #download-button1 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    background-color: coral;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    height:40px;
+    width:100px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 5px;
+  
+  }
+  #download-button2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    background-color: coral;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    height:40px;
+    width:100px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 5px;
+  }
+  
+  
+  
+  
+  /* Media Query for screens with a maximum width of 768px (adjust as needed) */
+  @media only screen and (max-width: 768px) {
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+  
+    .container1 {
+      width: 100%;
+      min-height: 700px;
+      padding: 80px;
+      box-sizing: border-box;
+  
+  
+    }
+  
+    .content {
+      display: flex;
+      flex-wrap: wrap; /* Allow flex items to wrap to the next line on smaller screens */
+      justify-content: space-between; /* Adjust as needed */
+      margin-top: 90px;
+    }
+  
+    .left-block {
+      width: 100%; /* Take full width on smaller screens */
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    .right-block {
+      width: 100%; /* Take full width on smaller screens */
+      text-align: center; /* Center the image on smaller screens */
+    }
+  
+    .right-block img {
+      max-width: 100%; /* Make sure the image doesn't exceed its container */
+      height: auto;
+      padding-top: 30px;
+    }
+  
+    .form-button {
+      width: 100px;
+      font-size: 10px; 
+      line-height: normal;/* Take full width on smaller screens */
+    }
+  
+    
+    .content {
+      flex-direction: column;
+    }
+  
+    .left-block {
+      padding: 0;
+    }
+  
+    .right-block img {
+      padding-top: 20px;
+    }
+  }
+  

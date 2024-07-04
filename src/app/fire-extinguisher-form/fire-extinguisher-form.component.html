@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="bg-background"></div>
+    <div class="container">
+        <div class="row py-5">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Details
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <form class="p-4 mt-3">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Date:</label>
+                                    <input type="date" class="form-control" id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Station:</label>
+                                    <input type="text" placeholder="Station" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Location:</label>
+                                    <input type="text" placeholder="location" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Serial Number:</label>
+                                    <input type="text" placeholder="Enter serial number" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Manufacturing Details
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <form class="p-4 mt-3">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Manufacturing Year:</label>
+                                    <input type="date" placeholder="year" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Manufacturing
+                                        Number:</label>
+                                    <input type="text" placeholder="manufacturing number" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Type of Fire
+                                        Extinguisher:</label>
+                                    <input type="text" placeholder="Fire extinguisher type" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Contractor:</label>
+                                    <input type="text" placeholder="contractor name" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Service Engineer Details
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <form class="p-4 mt-3">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Service Engineer:</label>
+                                    <input type="text" placeholder="service engineer name" class="form-control"
+                                        id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Mobile Number:</label>
+                                    <input type="text" placeholder="Mobile Number of Service Engineer"
+                                        class="form-control" id="exampleFormControlInput1" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Remarks:</label>
+                                    <textarea rows="5" cols="34" placeholder="Type your Remarks Here.."
+                                        class="a-very-long-line-of-wrapper"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Work attended Details
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <form class="p-4 mt-3">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Work attended at the same
+                                        time of Service:</label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Inspection
+                                    </label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Hydro Pressure Testing
+                                    </label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Refilling
+                                    </label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Replacement
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                            Upload
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <form class="p-4 mt-3">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Upload:</label>
+                                </div>
+                                <div class="mb-3 d-flex align-items-center">
+                                    <input class="form-control form-control-sm" id="formFileSm" type="file"
+                                        style="width: 250px; height: 30px; padding: 4px; margin-left: 4em;">
+                                    <img class="feather-upload-cloud ml-2" src="../../assets/Images/upload-solid.svg" />
+                                </div>
+                                <div class="mb-3 d-flex align-items-center">
+                                    <input class="form-control form-control-sm" id="formFileSm" type="file"
+                                        style="width: 250px; height: 30px; padding: 4px; margin-left: 4em;">
+                                    <img class="feather-upload-cloud ml-2" src="../../assets/Images/upload-solid.svg" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="button" class="buttons" onclick="alert('Hello world!')">Submit the form</button>
+            </div>
+
+            <div class="col-md-6 first_col">
+                <form class="p-4 mt-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Date:</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Station:</label>
+                        <input type="text" placeholder="station name" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Location:</label>
+                        <input type="text" placeholder="location" class="form-control" id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Serial Number:</label>
+                        <input type="text" placeholder="Enter Serial number" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 secound_col">
+                <form class="p-4 mt-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Manufacturing Year:</label>
+                        <input type="text" placeholder="Year of manufacture" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Manufacturing Number:</label>
+                        <input type="text" placeholder="manufacturing number" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Type of Fire Extinguisher:</label>
+                        <input type="text" placeholder="type of fire extinguisher" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Contractor:</label>
+                        <input type="text" placeholder="contractor name" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 third_col">
+                <form class="p-4 mt-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Service Engineer:</label>
+                        <input type="text" placeholder="service engineer name" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Mobile Number:</label>
+                        <input type="text" placeholder="Mobile Number of Service Engineer" class="form-control"
+                            id="exampleFormControlInput1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Remarks:</label>
+                        <textarea rows="5" cols="34" placeholder="Type your Remarks Here.."
+                            class="a-very-long-line-of-wrapper"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 fourth_col">
+                <form class="p-4 mt-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Work attended at the same time of
+                            Service:</label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Inspection
+                        </label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Hydro Pressure Testing
+                        </label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Refilling
+                        </label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Replacement
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 fifth_col">
+                <form class="p-4 mt-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Upload:</label>
+                    </div>
+                    <div class="mb-3 d-flex align-items-center">
+                        <input class="form-control form-control-sm" id="formFileSm" type="file"
+                            style="width: 250px; height: 30px; padding: 4px; margin-left: 4em;">
+                        <img class="feather-upload-cloud ml-2" src="../../assets/Images/upload-solid.svg" />
+                    </div>
+                    <div class="mb-3 d-flex align-items-center">
+                        <input class="form-control form-control-sm" id="formFileSm" type="file"
+                            style="width: 250px; height: 30px; padding: 4px; margin-left: 4em;">
+                        <img class="feather-upload-cloud ml-2" src="../../assets/Images/upload-solid.svg" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="fire-extinguisher">
+                <button type="button" class="button" onclick="alert('Hello world!')">Submit the form</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
